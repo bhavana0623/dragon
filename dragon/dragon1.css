@@ -1,0 +1,261 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0%;
+    /* background: linear-gradient(to right,#ffde59,#ff914d); */
+    background-color: gray;
+}
+h1 {
+    font-family: 'Rakkas', cursive;
+    font-size: 50px;
+    color: black;
+    text-shadow: 1px 1px white;
+    text-align: center;
+}
+
+p {
+    font-family: 'Rakkas', cursive;
+    color: black;
+}
+
+.sec-1 {
+    width: 100vmax;
+    height:63vmax;
+    /* background-color: brown; */
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    position: relative;
+    border: 10px solid black;
+    
+    /* background: linear-gradient(to right,#0079a7,#5ce1e6); */
+}
+
+/* .sec-1 {
+    width: 100vmax;
+    height:63vmax;
+    /* background-color: brown; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+    /* background: linear-gradient(to right,#0079a7,#5ce1e6); */
+
+
+/* .img1 {
+    height: 420px;
+    width: 420px;
+    margin: 20px;
+    padding: 50px;
+    background-color: black;
+    border: 1px solid black;
+    background-size: cover; 
+     background-image: url('dragonimg/drago.png'); 
+    transition: 1s all ease-in ;
+} */
+
+
+.cloudl {
+    height: 200px;
+    width: 400px;
+    background-size: cover; 
+    background-image: url('dragonimg/cloudl.png'); 
+    position: absolute;
+    top: 120px;
+    left: 40%;
+    transform: scale(600%);
+    transition: right 5s, left 5s;
+    z-index: 1;
+}
+
+.cloudr {
+    height: 200px;
+    width: 400px;
+    background-size: cover; 
+    background-image: url('dragonimg/cloudr.png'); 
+    position: absolute;
+    top: 300px;
+    left: 40%;
+    transform: scale(400%);
+    transition: right 5s, left 5s;
+    z-index: 1;
+}
+
+
+
+.cloudrnew {
+    height: 200px;
+    width: 400px;
+    background-size: cover; 
+    background-image: url('dragonimg/cloudr.png'); 
+    position: absolute;
+    top: 300px;
+    left: 100%;
+    transform: scale(400%);
+    z-index: 1;
+}
+
+.img1{
+    height: 350px;
+    width: 350px;
+    background-size: cover; 
+    background-image: url('dragonimg/drago.png'); 
+    position: absolute;
+    transition: all 5s;
+    /* transform: rotateY(180deg); */
+    top: 150px;
+    left: 31%;
+    
+}
+
+.info1 {
+    display: none;
+    height: 275px;
+    width: 490px;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+    transition: 1s all ease-out;
+} 
+
+
+
+.sec-2  {
+    background: linear-gradient(to right,#0079a7,red);
+    /* display: flex; */
+    margin: 0px;
+    border: 10px solid black;
+    border-radius: 10%;
+    z-index: 2;
+}
+.img2 {
+    height: 275px;
+    width: 490px;
+    margin: 20px;
+    align-items: end;
+
+    background-size: cover; 
+     background-image: url('dragonimg/dragonegghatch.png'); 
+    transition: 1s all ease-in ;
+}
+
+.info2 {
+    
+    height: 275px;
+    width: 490px;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+    transition: 1s all ease-out;
+} 
+
+.img3 {
+    height: 275px;
+    width: 490px;
+    margin: 20px;
+    background-size: cover; 
+     background-image: url('dragonimg/babdragon.png'); 
+    transition: 1s all ease-in ;
+}
+
+.info3 {
+    
+    height: 275px;
+    width: 490px;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+    transition: 1s all ease-out;
+} 
+
+.img4 {
+    height: 275px;
+    width: 490px;
+    margin: 20px;
+    background-size: cover; 
+     background-image: url('dragonimg/youthdragon.png'); 
+    transition: 1s all ease-in ;
+}
+
+.info4 {
+    
+    height: 275px;
+    width: 490px;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+    transition: 1s all ease-out;
+} 
+
+.img5 {
+    height: 275px;
+    width: 490px;
+    margin: 20px;
+    background-size: cover; 
+     background-image: url('dragonimg/adultdragon.png'); 
+    transition: 1s all ease-in ;
+}
+
+.info5 {
+    
+    height: 275px;
+    width: 490px;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+    transition: 1s all ease-out;
+} 
+
+.img6 {
+    height: 275px;
+    width: 490px;
+    margin: 20px;
+    background-size: cover; 
+     background-image: url('dragonimg/elderdragon.png'); 
+    transition: 1s all ease-in ;
+}
+
+.info6 {
+    
+    height: 275px;
+    width: 490px;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+    transition: 1s all ease-out;
+} 
+
+.img7 {
+    height: 275px;
+    width: 490px;
+    margin: 20px;
+    background-size: cover; 
+     background-image: url('dragonimg/dwithoutbg.png'); 
+    transition: 1s all ease-in ;
+}
+
+.info7 {
+    
+    height: 275px;
+    width: 490px;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+    transition: 1s all ease-out;
+} 
+
+
+.sec-grid {
+    background-color: black;
+    margin: 0px;
+}
+
+
+th {
+    text-align: center;
+    justify-content: center;
+}
+
+

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dragon1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Obra+Letra&display=swap">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="sec-1">
+        
+        <h1>DRAGON</h1>
+        
+            <div class="cloudl"></div>
+            <div class="cloudr"></div>
+           
+            <div class="img1" onmouseenter="show()"  ></div>
+        
+        </div>
+
+
+    <!-- <div class="sec-1">
+        
+        <h1>DRAGON</h1>
+        
+                <div class="info1" id="01">
+                <p>In a realm where myths and legends reign supreme, there exists a creature of unparalleled majesty and power: the dragon. From its humble beginnings to its triumphant ascent, the dragon's life is a journey of epic proportions.</p>
+        </div>
+           
+            <div class="img1" onmouseenter="show()"  ></div>
+        
+        </div>
+         -->
+        
+        
+        <div class="sec-grid">
+        <h1>Birth: Genesis of Fire</h1>
+    </div>
+    <div class="sec-2">
+        
+
+        <div class="info2" id="01">
+            <p>The dragon's journey begins amidst the crackling embers of its hatching. Born from the depths of ancient lore, this metallic-hued dragon emerges from its egg, its scales shimmering with the promise of strength and wisdom. In this phase, we delve into the awe-inspiring moment of the dragon's birth, exploring the mysteries of its origins and the wonder of its first breaths.</p>
+        </div>
+
+        <div class="img2"   ></div>
+    </div>
+    <div class="sec-grid">
+        <h1>Childhood : Nestling's Awakening</h1>
+    </div>
+    <div class="sec-3">
+        
+        <div class="img3"   ></div>
+
+        <div class="info3" id="01">
+            <p>In the heart of an ancient forest, where the emerald canopy stretches towards the heavens, a small, metallic-hued dragon breaks free from its egg. With eyes wide with wonder and scales still glistening with the remnants of its birth, the dragon takes its first tentative steps into the world.</p>
+        </div>
+
+        
+    </div>
+    <div class="sec-grid">
+        <h1>Youth: Windswept Scales</h1>
+    </div>
+    <div class="sec-4">
+        
+
+        <div class="info4" id="01">
+            <p>As the dragon grows, so too does its curiosity and spirit. In the swirling winds of youth, it learns to navigate the skies, its wings unfurling like banners of freedom. This phase chronicles the dragon's adventures and misadventures, its triumphs and trials, as it explores the world with boundless energy and untamed courage.</p>
+        </div>
+
+        <div class="img4"   ></div>
+    </div>
+
+    <div class="sec-grid">
+        <h1>Childhood : Nestling's Awakening</h1>
+    </div>
+    <div class="sec-5">
+        <h1>Adulthood: Scorching Apex</h1>
+
+        <div class="info5" id="01">
+            <p>In the fiery crucible of adulthood, the dragon reaches its full potential, becoming a force to be reckoned with. With each beat of its powerful wings and each breath of searing flame, it carves its mark upon the annals of legend. This phase delves into the dragon's prime, showcasing its strength, cunning, and unwavering determination in the face of adversity.</p>
+        </div>
+
+        <div class="img5"   ></div>
+    </div>
+
+    <div class="sec-6">
+        <h1>Elder years: Ancient Reverie</h1>
+
+        <div class="info6" id="01">
+            <p>As time passes, the dragon's fiery spirit endures, tempered by the wisdom of ages past. In the twilight of its life, it reflects upon the memories and lessons that have shaped its journey. This phase explores the quiet majesty of the elder dragon, as it imparts its knowledge and experience to those who seek its counsel.</p>
+        </div>
+
+        <div class="img6"   ></div>
+    </div>
+
+    <div class="sec-7">
+        <h1>Death: Eternal Resonance</h1>
+
+        <div class="info7" id="01">
+            <p>Even as the dragon's flame fades, its legacy burns bright, casting a timeless glow upon the world. In the final moments of its existence, it transcends the mortal realm, becoming a beacon of hope and inspiration for generations to come. This phase celebrates the dragon's enduring spirit, as it takes its place among the stars, forever remembered in the tapestry of myth and legend.</p>
+        </div>
+
+        <div class="img7"   ></div>
+    </div>
+
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function(){
+            var img = document.querySelector(".cloudr");
+            var imgleft = document.querySelector(".cloudl");
+            var logodiv = document.querySelector(".img1");
+            // image.classList.remove("classrnew");
+            // image.classList.add("cloudrnew");
+            img.style.left="100%";
+            imgleft.style.left="-100%";
+            logodiv.style.width ="550px";
+            logodiv.style.height ="550px";
+            
+
+        });
+
+        function show(){
+            const info=document.getElementById("01");
+            info.style.display="block";
+
+        }
+        function hide() {
+            const info=document.getElementById("01");
+            info.style.display="none";
+        }
+
+        
+        
+    </script>
+
+
+
+
+
+
+
+</body>
+</html>
